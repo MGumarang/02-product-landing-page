@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  font-size: 18px;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -11,10 +12,12 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #90bee4 0%, #ffffff 100%);
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -22,19 +25,23 @@ body {
 
 .hero h1 {
   margin: 20px 0 10px;
+  font-size: 3.5em;
   color: #16213e;
 }
 
 .hero p {
   margin: 10px 0 20px;
+  font-size: 1.05rem;
   color: #555;
 }
 
 .hero button {
-  background-color: #533483; 
+  background-color: #533483;
   color: #fff;
   border: none;
   border-radius: 10px;
+  padding: 0.75em 1.1em;
+  font-size: 1.1em;
   cursor: pointer;
 }
 
@@ -48,20 +55,22 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25em;
 }
 
 /* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
-  background-color: #f7f7f7;
+  background: linear-gradient(135deg, #ffffff 0%, #90bee4 100%);
   text-align: center;
 }
 
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  font-size: 1.8rem;
+  color: #0f3460;
 }
 
 .how-it-works ol {
@@ -84,7 +93,7 @@ strong {
 
 /* Features Section */
 .features {
-  padding: 20px;
+  padding: 80px;
   background-color: #ffffff;
   text-align: center;
   margin: auto;
@@ -93,6 +102,7 @@ strong {
 
 .features h2 {
   margin-bottom: 20px;
+  font-size: 1.8rem;
   color: #1a1a2e;
 }
 
